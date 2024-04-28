@@ -101,7 +101,7 @@
     <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2016\RvtVa3c.dll" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(ProjectDir)Revit3Drooms.addin" "$(AppData)\Autodesk\REVIT\Addins\2016"
-copy "$(ProjectDir)bin\debug\Revit3Drooms.dll" "$(AppData)\Autodesk\REVIT\Addins\2016"</PostBuildEvent>
+    <PostBuildEvent>::copy "$(ProjectDir)Revit3Drooms.addin" "$(AppData)\Autodesk\REVIT\Addins\2016"
+::copy "$(ProjectDir)bin\debug\Revit3Drooms.dll" "$(AppData)\Autodesk\REVIT\Addins\2016"</PostBuildEvent>
   </PropertyGroup>
 </Project>
